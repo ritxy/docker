@@ -1,5 +1,19 @@
 # Docker
 
+# What is Docker?
+ Docker is an open source containerization platform. 
+ It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.                                                                       
+
+# What is an image?
+Contain the code and required tools to run an application
+
+# What is a container?
+A conainer is a piece of software that allow to run images
+
+# What is a volume?
+Volumes are folders on your host machine hard drive which are mounted into containers.
+This allow you to persist data if a container shuts down. A container can write and read data from it.
+
 # List of docker commands
 >docker build . -> Create an image using the dockerfile in the current directory
 
